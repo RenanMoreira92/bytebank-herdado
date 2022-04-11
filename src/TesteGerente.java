@@ -13,8 +13,6 @@ public class TesteGerente {
 		System.out.println(g1.getSalario());
 		
 		g1.setSenha(2222);
-		
-		
 		boolean autenticou = g1.autentica(2222);
 		
 		System.out.println(autenticou);
